@@ -18,6 +18,7 @@ function App() {
 
   const handleCalculateSum = () => {
     console.log("people", people);
+    console.log("name", name);
     var here = "here";
     const sum = calculateSum(people);
     setSum(sum);
